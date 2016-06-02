@@ -1,5 +1,3 @@
 ﻿# WebAppFromQtDesigner
 
-Project Developers:
-  Abdurahman Can Kurtan
-  Mert İmre
+Project Developers: Abdurahman Can Kurtan, Mert İmre
