@@ -10,5 +10,5 @@ You can use *maven install* option to create the executable jar file. You can fi
 ### Run
 You can use the following command to run the executable jar file:
 ```console
-java -jar .\Cmpe492-0.0.1-SNAPSHOT.jar
+java -jar .\Cmpe492-0.0.1-SNAPSHOT-jar-with-dependencies.jar
 ```
