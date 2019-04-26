@@ -1,4 +1,4 @@
-package main.parse;
+package parse;
 
 import java.io.File;
 import java.io.FileNotFoundException;
@@ -11,8 +11,8 @@ import javax.swing.JFileChooser;
 import javax.xml.parsers.DocumentBuilder;
 import javax.xml.parsers.DocumentBuilderFactory;
 
-import main.document.MyHTMLDocumentImpl;
-import main.model.NodeConverter;
+import document.MyHTMLDocumentImpl;
+import model.NodeConverter;
 
 import org.w3c.dom.DOMConfiguration;
 import org.w3c.dom.Document;
@@ -404,7 +404,7 @@ public class QtUiFileParser {
 		String id = eElement.getAttribute("name");
 		String style = getStyle(eElement);
 		Element pElement = htmlDoc.createElement("input");
-		//Max ve min deðerleri çekilerek buraya eklenecek
+		//Max ve min deï¿½erleri ï¿½ekilerek buraya eklenecek
 		pElement.setAttribute("id", id);
 		pElement.setAttribute("type", "number");
 		pElement.setAttribute("class", "form-control");

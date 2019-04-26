@@ -1,13 +1,8 @@
-package main.document;
+package document;
 
 import org.apache.xerces.dom.DocumentImpl;
 import org.apache.xerces.dom.DocumentTypeImpl;
-import org.w3c.dom.DOMException;
-import org.w3c.dom.Document;
-import org.w3c.dom.DocumentType;
-import org.w3c.dom.Element;
-import org.w3c.dom.Node;
-import org.w3c.dom.NodeList;
+import org.w3c.dom.*;
 
 //a base class somewhere in the hierarchy implements org.w3c.dom.Document
 public class MyHTMLDocumentImpl extends DocumentImpl {

@@ -1,11 +1,11 @@
-package main.model;
+package model;
 
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Comparator;
 import java.util.List;
 
-import main.util.Utils;
+import util.Utils;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;

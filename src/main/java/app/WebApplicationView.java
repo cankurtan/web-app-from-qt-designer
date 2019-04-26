@@ -1,4 +1,4 @@
-package main;
+package app;
 
 import java.io.File;
 import java.io.IOException;
@@ -12,7 +12,7 @@ import javax.swing.UIManager;
 import javax.swing.UnsupportedLookAndFeelException;
 import javax.swing.filechooser.FileNameExtensionFilter;
 
-import main.parse.QtUiFileParser;
+import parse.QtUiFileParser;
 
 public class WebApplicationView {
 

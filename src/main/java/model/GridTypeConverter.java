@@ -1,6 +1,6 @@
-package main.model;
+package model;
 
-import main.util.Utils;
+import util.Utils;
 
 import org.w3c.dom.Document;
 import org.w3c.dom.Element;
@@ -287,7 +287,7 @@ public class GridTypeConverter {
 		
 		String id = eElement.getAttribute("name");
 		Element pElement = htmlDoc.createElement("input");
-		//Max ve min deðerleri çekilerek buraya eklenecek
+		//Max ve min deï¿½erleri ï¿½ekilerek buraya eklenecek
 		pElement.setAttribute("id", id);
 		pElement.setAttribute("type", "number");
 		pElement.setAttribute("class", "form-control");
